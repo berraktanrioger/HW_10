@@ -1,0 +1,81 @@
+    1  PWD
+    2  git config --global user.name 'berraktanrioger'
+    3  git config --global user.email 'berraktanrioger@gmail.com'
+    4  git HW_10
+    5  cd HW_10
+    6  git init
+    7  git clone https://github.com/berraktanrioger/HW_10.git
+    8  cd HW_10
+    9  touch text_ignore.txt
+   10  echo text_ignore.txt >> .gitignore
+   11  git status
+   12  git add .
+   13  git commit -m "Task 1"
+   14  touch main_test.txt
+   15  git status
+   16  whoami
+   17  pwd
+   18  mkdir HW_10
+   19  CD hw_10
+   20  cd HW_10
+   21  git config --global user.name 'berraktanrioger'
+   22  git config --global user.email 'berraktanrioger@gmail.com'
+   23  git clone https://github.com/berraktanrioger/HW_10.git
+   24  cd HW_10
+   25  touch text_ignore.txt
+   26  ls
+   27  git status
+   28  git add .
+   29  git commit -m "Task 1"
+   30  touch main_test.txt
+   31  git add .
+   32  git commit -m "Task 2"
+   33  git branch developer
+   34  git checkout developer
+   35  touch develop_test.txt
+   36  git add .
+   37  git commit -m "Task 3.1"
+   38  git status
+   39  git add .
+   40  git commit -m "Task 3.2"
+   41  git checkout main
+   42  git merge developer
+   43  git log
+   44  cd HW_10
+   45  cd HW_10
+   46  git bash history
+   47  pwd
+   48  ls
+   49  history -a && history > command_list.csv~
+   50  ls
+   51  cat command_list.csv
+   52  notepad command_list.csv
+   53  whoami
+   54  pwd
+   55  ls
+   56  mkdir HW_10
+   57  cd HW_10
+   58  git config --global user.name 'berraktanrioger'
+   59  git config --global user.email 'berraktanrioger@gmail.com'
+   60  git clon https://github.com/berraktanrioger/HW_10.git
+   61  git clone https://github.com/berraktanrioger/HW_10.git
+   62  cd HW_10
+   63  touch text_ignore.txt
+   64  git status
+   65  git add .
+   66  git commit -m "Task 1"
+   67  touch main_test.txt
+   68  git add .
+   69  git commit -m "Taask 2"
+   70  git branch develop
+   71  git checkout develop
+   72  touch develop_test.txt
+   73  git add .
+   74  git commit -m "Task 3.1"
+   75  git status
+   76  git add .
+   77  git commit -m "Task 3.2"
+   78  git checkout main
+   79  git merge develop
+   80  git log
+   81  history > command_list.csv
